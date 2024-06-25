@@ -219,6 +219,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_slider_JjG7LT": {
+      "type": "image-slider",
+      "settings": {
+        "protxt": "",
+        "proid": "women-dresses"
+      }
     }
   },
   "order": [
@@ -227,6 +234,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "image_slider_JjG7LT"
   ]
 }
