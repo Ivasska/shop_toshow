@@ -56,6 +56,13 @@
         "show_text_below": false
       }
     },
+    "image_slider_EybppJ": {
+      "type": "image-slider",
+      "settings": {
+        "protxt": "new arrivals",
+        "proid": "women-dresses"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -219,22 +226,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_slider_EybppJ": {
-      "type": "image-slider",
-      "settings": {
-        "protxt": "new arrivals",
-        "proid": "women-dresses"
-      }
     }
   },
   "order": [
     "image_banner",
+    "image_slider_EybppJ",
     "rich_text",
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "image_slider_EybppJ"
+    "multicolumn"
   ]
 }
