@@ -253,6 +253,10 @@
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
+    {% comment %} -------Slick Slider---------- {% endcomment %}
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    {% comment %} ------- Ens Slick Slider---------- {% endcomment %}
+
     {%- unless settings.type_body_font.system? -%}
       {% comment %}theme-check-disable AssetPreload{% endcomment %}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -355,5 +359,9 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% comment %} -----------Slick Slider-------- {% endcomment %}
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" async></script>
+    {% comment %} -----------End Slick Slider-------- {% endcomment %}
   </body>
 </html>
