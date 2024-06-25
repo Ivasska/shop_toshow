@@ -9,7 +9,31 @@
   </div>
 </div>
 
-<script>
+{% schema %}
+{
+  "name": "Image Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "protxt",
+      "label": "Product Title"
+    },
+    {
+      "type": "collection",
+      "id": "proid",
+      "label": "Select Collections"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Slider",
+      "category": "collections"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
   $('.product-slider').slick({
     dots: true,
     infinite: false,
@@ -45,32 +69,4 @@
       // instead of a settings object
     ],
   });
-</script>
-
-{% javascript %}
-  
 {% endjavascript %}
-
-{% schema %}
-{
-  "name": "Image Slider",
-  "settings": [
-    {
-      "type": "text",
-      "id": "protxt",
-      "label": "Product Title"
-    },
-    {
-      "type": "collection",
-      "id": "proid",
-      "label": "Select Collections"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Product Slider",
-      "category": "collections"
-    }
-  ]
-}
-{% endschema %}
