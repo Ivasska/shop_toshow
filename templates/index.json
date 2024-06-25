@@ -56,13 +56,6 @@
         "show_text_below": false
       }
     },
-    "image_slider_EybppJ": {
-      "type": "image-slider",
-      "settings": {
-        "protxt": "new arrivals",
-        "proid": "women-dresses"
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -230,7 +223,6 @@
   },
   "order": [
     "image_banner",
-    "image_slider_EybppJ",
     "rich_text",
     "featured_collection",
     "collage",
