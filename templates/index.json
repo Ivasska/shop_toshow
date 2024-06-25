@@ -56,13 +56,6 @@
         "show_text_below": false
       }
     },
-    "image_slider_BJJBDb": {
-      "type": "image-slider",
-      "settings": {
-        "protxt": "new arrival",
-        "proid": "women-dresses"
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -230,7 +223,6 @@
   },
   "order": [
     "image_banner",
-    "image_slider_BJJBDb",
     "rich_text",
     "featured_collection",
     "collage",
