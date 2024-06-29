@@ -19,6 +19,11 @@
   outline: none;
   border-radius: 100%;
   cursor: pointer;
+  transition: 0.3s linear opacity;
+  opacity: 1;
+}
+.slick-slider .slick-arrow:hover {
+  opacity: 0.6;
 }
 .slick-slider .slick-arrow::before {
   position: absolute;
