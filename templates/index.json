@@ -58,7 +58,57 @@
     },
     "image_slider_BJJBDb": {
       "type": "image-slider",
+      "blocks": {
+        "product_3PzyUL": {
+          "type": "product",
+          "settings": {
+            "product": "convertible-gym-bag"
+          }
+        },
+        "product_CfW8BF": {
+          "type": "product",
+          "settings": {
+            "product": "dagne-dover-dakota-large-neoprene-backpack"
+          }
+        },
+        "product_H3C6FV": {
+          "type": "product",
+          "settings": {
+            "product": "dagne-dover-landon-large-carryall-bag"
+          }
+        },
+        "product_8apwXT": {
+          "type": "product",
+          "settings": {
+            "product": "featherweight-at-the-ready-square-neck-dress"
+          }
+        },
+        "product_x7rUQW": {
+          "type": "product",
+          "settings": {
+            "product": "high-waisted-midi-legging"
+          }
+        },
+        "product_eJKUGz": {
+          "type": "product",
+          "settings": {
+            "product": "if-you-pleats-mini-skirt"
+          }
+        }
+      },
+      "block_order": [
+        "product_3PzyUL",
+        "product_CfW8BF",
+        "product_H3C6FV",
+        "product_8apwXT",
+        "product_x7rUQW",
+        "product_eJKUGz"
+      ],
       "settings": {
+        "title": "Рекомендовані товари",
+        "navigation_color": "#000000",
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "rich_text": {
