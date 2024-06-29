@@ -48,35 +48,6 @@
       </div>
     {% endif %}
   </div>
-
-  {% comment %}
-    {% if product_count > 4 %}
-      <div class="slider-product-proposal__control">
-        <button type="button" class="slick-arrow slick-prev arrow-control control-prev">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="40px"
-            viewBox="0 -960 960 960"
-            width="40px"
-            fill="{{ section.settings.navigation_color }}"
-          >
-            <path d="M400-80 0-480l400-400 61 61.67L122.67-480 461-141.67 400-80Z"/>
-          </svg>
-        </button>
-        <button type="button" class="slick-arrow slick-next arrow-control control-next">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="40px"
-            viewBox="0 -960 960 960"
-            width="40px"
-            fill="{{ section.settings.navigation_color }}"
-          >
-            <path d="m309.67-81.33-61-61.67L587-481.33 248.67-819.67l61-61.66 400 400-400 400Z"/>
-          </svg>
-        </button>
-      </div>
-    {% endif %}
-  {% endcomment %}
 </div>
 
 {% if product_count > 4 %}
@@ -87,8 +58,6 @@
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        // prevArrow: $('#shopify-section-{{section.id}} .control-prev'),
-        // nextArrow: $('#shopify-section-{{section.id}} .control-next'),
         responsive: [
           {
             breakpoint: 1024,
@@ -126,7 +95,7 @@
       "type": "text",
       "id": "title",
       "label": "Заголовок",
-      "default": "Рекомендовані продукти"
+      "default": "Рекомендовані товари"
     },
     {
       "type": "color",
@@ -161,14 +130,14 @@
         {
           "type": "product",
           "id": "product",
-          "label": "Виберіть продукт"
+          "label": "Виберіть товар"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Рекомендовані продукти",
+      "name": "Рекомендовані товари",
       "category": "Custom"
     }
   ]
