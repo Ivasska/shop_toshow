@@ -7,8 +7,8 @@
   display: block;
   top: 50%;
   transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   font-size: 0;
   line-height: 18px;
   overflow: hidden;
@@ -30,13 +30,13 @@
   color: red;
 }
 .slick-slider .slick-prev {
-  left: -20px;
+  left: -10px;
 }
 .slick-slider .slick-prev::before {
   content: "<";
 }
 .slick-slider .slick-next {
-  right: -20px;
+  right: -10px;
 }
 .slick-slider .slick-next::before {
   content: ">";
@@ -60,4 +60,6 @@
 }
 .featured-products h2 {
   font-size: 16px;
+  display: block;
+  text-align: center;
 }
