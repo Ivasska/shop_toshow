@@ -12,10 +12,10 @@
   font-size: 0;
   line-height: 18px;
   overflow: hidden;
-  background-color: green;
+  background-color: transparent;
   color: red;
   z-index: 1;
-  border: none;
+  border: 1px solid red;
   outline: none;
   border-radius: 100%;
   cursor: pointer;
@@ -30,13 +30,13 @@
   color: red;
 }
 .slick-slider .slick-prev {
-  left: -10px;
+  left: 0px;
 }
 .slick-slider .slick-prev::before {
   content: "<";
 }
 .slick-slider .slick-next {
-  right: -10px;
+  right: 0px;
 }
 .slick-slider .slick-next::before {
   content: ">";
