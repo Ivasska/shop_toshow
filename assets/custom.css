@@ -56,9 +56,9 @@
 }
 
 .product-grid {
-  display: grid;
+  /* display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
 }
 .featured-products {
   padding: 20px 0 20px;
