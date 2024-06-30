@@ -54,7 +54,7 @@
             "text": "Size chart",
             "page": "",
             "hide_empty_popup": false,
-            "popup_content": "<p><strong>test text<\/strong><\/p>",
+            "popup_content": "",
             "table_page": "",
             "table_html": ""
           }
