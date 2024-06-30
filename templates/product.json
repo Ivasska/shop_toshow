@@ -53,6 +53,8 @@
           "settings": {
             "text": "Size chart",
             "page": "",
+            "hide_empty_popup": false,
+            "popup_content": "<p><strong>test text<\/strong><\/p>",
             "table_page": "",
             "image_with_table": "shopify:\/\/shop_images\/Size_Chart.webp",
             "table_html": ""
