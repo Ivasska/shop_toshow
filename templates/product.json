@@ -54,7 +54,7 @@
             "text": "Size chart",
             "page": "",
             "hide_empty_popup": false,
-            "popup_content": "<p>test text<\/p>",
+            "popup_content": "<p>test text<\/p><p>something about <strong>test text<\/strong><\/p>",
             "table_page": "",
             "table_html": ""
           }
